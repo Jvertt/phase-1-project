@@ -5,11 +5,24 @@ const fetchActivityBtn = document.getElementById('fetch-activity-btn');
 const activity1 = document.getElementById('activity');
 const activityList1 = document.getElementById('activity-list');
 
+// Event listeners 
 fetchActivityBtn.addEventListener('click', fetchActivity);
 
+
+
+// Fetch a random activity from the API
 function fetchActivity(){
 fetch(apiUrl)
 .then(response => response.json())
 .then(data => activity1.innerText = data.activity)
 .catch(error => console.error(error));
 }
+
+
+const toggleModeBtn = document.getElementById('toggleModeBtn');
+const body1 = document.querySelector('body')
+
+toggleModeBtn.addEventListener('click', () => {
+    body1.classList.toggle('dark');
+    body1.classList.toggle('light');
+}); 
