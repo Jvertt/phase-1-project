@@ -10,6 +10,7 @@ function fetchData(url){
     })
 }
 
+
 // event listener for search button
 
 document.getElementById('searchButton').addEventListener("click", () => {

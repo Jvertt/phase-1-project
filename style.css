@@ -1,2 +1,9 @@
+body.dark-mode {
+  background-color: black;
+  color: green;
+}
 
-      
+.character-card.dark-mode {
+  background-color: #333;
+  color: green;
+}
