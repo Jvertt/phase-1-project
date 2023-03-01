@@ -1,14 +1,54 @@
 h1 {
   font-family: impact,fantasy;
-  color: limegreen;
+  color: rgb(99, 238, 99);
   font-size: 50px;
 }
 body.dark-mode {
-  background-color: black;
+  background-color: rgb(31, 30, 30);
   color: white;
 }
 
 .character-card.dark-mode {
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   color: white;
+}
+
+/* character card css*/
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.character-card {
+  background-color: rgb(99, 238, 99);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.species, .status {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #555;
 }
