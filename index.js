@@ -20,6 +20,17 @@ document.getElementById('searchButton').addEventListener("click", () => {
     .catch(error => console.error(error));
 })
 
+// dark mode toggle
+
+const darkModeToggle = document.getElementById('darkModeToggle');
+const body = document.body;
+const characterCards = document.querySelectorAll('.character-card');
+
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+    characterCards.forEach((card) => card.classList.toggle('dark-mode'));
+})
+
 // event listener for search input
 
 document.getElementById('searchInput').addEventListener('input', (event) =>{
