@@ -19,6 +19,18 @@ document.getElementById('searchButton').addEventListener("click", () => {
     .catch(error => console.error(error));
 })
 
+// event listener that allows use to press enter to search
+
+document.getElementById('searchInput').addEventListener('keydown', (event) => {
+    if(event.key === 'Enter'){
+        const searchTerm = document.getElementById('searchInput').value;
+        fetchData(`${apiUrl}?name=${searchTerm}`)
+        .then(characters => renderCharacters(characters.results))
+        .catch(error => console.error(error));
+    }
+})
+
+// function to render character cards
 function renderCharacters(characters) {
     const charactersList = document.getElementById('charactersList')
     charactersList.innerHtml = '';
