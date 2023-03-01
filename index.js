@@ -19,6 +19,16 @@ document.getElementById('searchButton').addEventListener("click", () => {
     .catch(error => console.error(error));
 })
 
+// event listener for search input
+
+document.getElementById('searchInput').addEventListener('input', (event) =>{
+    const searchTerm = event.target.value
+fetchData(`${apiUrl}?name=${searchTerm}`)
+.then(characters => renderCharacters(characters.results))
+.catch(error => console.error(error));
+})
+
+
 // event listener that allows use to press enter to search
 
 document.getElementById('searchInput').addEventListener('keydown', (event) => {
