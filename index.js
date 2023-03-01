@@ -43,7 +43,7 @@ document.getElementById('searchInput').addEventListener('keydown', (event) => {
 // function to render character cards
 function renderCharacters(characters) {
     const charactersList = document.getElementById('charactersList')
-    charactersList.innerHtml = '';
+    charactersList.innerHTML = '';
 
     characters.forEach((character) => {
         const card = document.createElement('div');
