@@ -9,16 +9,17 @@
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
-
-
 # Prerequisites
 
+* This project is written in Javascript,HTML and CSS
 
 # Usage
 
+* Using this app is very simple, all you need to do click the search bar and type in your favorite Rick and Morty character! As a user, you also have the ability to toggle light and dark mode.
 
 # Acknowledgments
 
+* I was the only contributor to this project, however I did use a public API from https://rickandmortyapi.com/.
 
 # Contact
 
