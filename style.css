@@ -3,6 +3,7 @@ h1 {
   color: rgb(99, 238, 99);
   font-size: 50px;
 }
+
 body.dark-mode {
   background-color: rgb(31, 30, 30);
   color: white;
