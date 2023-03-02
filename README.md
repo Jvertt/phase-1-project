@@ -17,6 +17,9 @@
 
 # Contact
 
+* Name: Justin Verthein
+* Email: justinmackay88@hotmail.com
+
 
 
 
