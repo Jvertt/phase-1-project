@@ -25,6 +25,7 @@
 
 * Name: Justin Verthein
 * Email: justinmackay88@hotmail.com
+* blog post: https://dev.to/jvertt/flatiron-phase-1-project-4n50
 
 
 
