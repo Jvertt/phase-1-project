@@ -4,6 +4,45 @@ h1 {
   font-size: 50px;
 }
 
+#searchInput {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#searchButton {
+  background-color: rgb(99, 238, 99);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#darkModeToggle {
+  background-color: rgb(99, 238, 99);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
 body.dark-mode {
   background-color: rgb(31, 30, 30);
   color: white;
